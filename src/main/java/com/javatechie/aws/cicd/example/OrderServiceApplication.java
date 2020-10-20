@@ -29,8 +29,4 @@ public class OrderServiceApplication {
         SpringApplication.run(OrderServiceApplication.class, args);
     }
     
-    @GetMapping("/hello")
-    public String getMessage()	{
-    	return "Hello";
-    }
 }
